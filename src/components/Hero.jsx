@@ -2,7 +2,7 @@ import styles from "../style";
 
 import GetStarted from "./GetStarted";
 import Carousel from "./Carousel";
-import {crousel1, crousel2, crousel3,carbonoutimg1 } from "../assets";
+import {crousel2, crousel3,carbonoutimg1 } from "../assets";
 const items = [
   {
     image: carbonoutimg1,

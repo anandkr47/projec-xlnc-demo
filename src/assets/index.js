@@ -19,7 +19,7 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
-import crousel1 from "./crousel1.jpg";
+
 import crousel2 from "./crousel2.jpg";
 import crousel3 from "./crousel3.jpg";
 import cardimg from "./cardimg.jpg";
@@ -57,7 +57,7 @@ export {
   people01,
   people02,
   people03,
-  crousel1,
+  
   crousel2,
   crousel3,
   cardimg,
