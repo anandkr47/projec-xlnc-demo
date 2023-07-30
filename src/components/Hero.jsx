@@ -1,5 +1,5 @@
 import styles from "../style";
-import { discount, robot } from "../assets";
+
 import GetStarted from "./GetStarted";
 import Carousel from "./Carousel";
 import {crousel1, crousel2, crousel3,carbonoutimg1 } from "../assets";
