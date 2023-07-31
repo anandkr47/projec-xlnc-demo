@@ -36,6 +36,9 @@ import product from "./product.gif";
 import client from "./client.gif";
 import contact from "./contact.gif";
 import home from "./home.gif";
+import earth from "./earth.gif";
+import eco from "./eco.png";
+import moon from "./moon.png";
 export {
   airbnb,
   bill,
@@ -75,4 +78,7 @@ export {
   solar,
   recycle,
   bluetooth,
+  earth,
+  moon,
+  eco,
 };

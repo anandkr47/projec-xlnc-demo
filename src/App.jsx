@@ -25,8 +25,8 @@ const App = () => (
         <Clients />
         <AboutVideo/>
         <CTA />
-        <Contact />
         <Earth/>
+        <Contact />
         <Footer />
       </div>
     </div>
