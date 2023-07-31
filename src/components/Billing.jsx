@@ -1,11 +1,18 @@
-import { apple, bill, google,carbonoutimg1,carbonoutimg3 } from "../assets";
+import { apple, bill, google,carbonoutimg1,carbonoutimg3,product } from "../assets";
 import styles ,{ layout } from "../style";
 import Button from "./Button";
 import "./floating.css";
 
 const Billing = () => (
   <div>
-    <h3 className={styles.heading2}>Our Product</h3>
+    <div className={` ${styles.flexCenter}`}>
+  <h3 className={styles.heading2}
+  style={{marginLeft:"35%"}}
+  
+  >Our Product</h3>
+    <img src={product} alt="star" className="w-[50px] h-[50px] object-contain rounded-full" 
+    style={{ marginRight: "35%" }}/>
+  </div>
   <section id="product" className={layout.sectionReverse}>
     <div className={layout.sectionImgReverse}>
     <img

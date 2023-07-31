@@ -20,7 +20,16 @@ const Navbar = () => {
             } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
             onClick={() => setActive(nav.title)}
           >
-            <a href={`#${nav.id}`}>{nav.title}</a>
+            <a href={`#${nav.id}`}>
+              {nav.title}
+              {active === nav.title && (
+                <img
+                  src={nav.img}
+                  alt="star"
+                  className="w-[50px] h-[50px] object-contain inline-block ml-2 rounded-full hover:rounded-3xl"
+                />
+              )}
+            </a>
           </li>
         ))}
       </ul>
@@ -47,7 +56,16 @@ const Navbar = () => {
                 } ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
                 onClick={() => setActive(nav.title)}
               >
-                <a href={`#${nav.id}`}>{nav.title}</a>
+                <a href={`#${nav.id}`}>
+                  {nav.title}
+                  {active === nav.title && (
+                    <img
+                      src={nav.img}
+                      alt="star"
+                      className="w-[50px] h-[50px] object-contain inline-block ml-2"
+                    />
+                  )}
+                </a>
               </li>
             ))}
           </ul>

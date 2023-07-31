@@ -1,25 +1,30 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, iot,solar,recycle,bluetooth } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, iot,solar,recycle,bluetooth,client,product,featur,contact,home } from "../assets";
 
 export const navLinks = [
   {
     id: "home",
     title: "Home",
+    img: home,
   },
   {
     id: "features",
     title: "Features",
+    img: featur,
   },
   {
     id: "product",
     title: "Product",
+    img: product,
   },
   {
     id: "clients",
     title: "Clients",
+    img: client,
   },
   {
     id: "contact",
     title: "Contact",
+    img: contact,
   },
 ];
 

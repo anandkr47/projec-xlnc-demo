@@ -2,7 +2,7 @@ import { features } from "../constants";
 import React, { useState } from "react";
 import styles,{ layout } from "../style";
 
-import { carbonoutimg2 } from "../assets";
+import { carbonoutimg2,featur } from "../assets";
 import Button from "./Button";
 import "./floating.css";
 
@@ -53,7 +53,14 @@ const FeatureCard = ({ icon, title, content, index }) => {
 
 const Business = () => (
   <div>
-  <h3 className={styles.heading2}>Features</h3>
+    <div className={` ${styles.flexCenter}`}>
+  <h3 className={styles.heading2}
+  style={{marginLeft:"38%"}}
+  
+  >Features</h3>
+    <img src={featur} alt="star" className="w-[50px] h-[50px] object-contain rounded-full" 
+    style={{ marginRight: "39%" }}/>
+  </div>
   <section id="features" className={layout.section}>
     
     <div className={layout.sectionImgReverse}>

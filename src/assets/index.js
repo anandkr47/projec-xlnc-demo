@@ -31,6 +31,11 @@ import iot from "./iot.png";
 import solar from "./solar.png";
 import recycle from "./recycle.png";
 import bluetooth from "./bluetooth.png";
+import featur from "./featur.gif";
+import product from "./product.gif";
+import client from "./client.gif";
+import contact from "./contact.gif";
+import home from "./home.gif";
 export {
   airbnb,
   bill,
@@ -40,10 +45,11 @@ export {
   dropbox,
   logo,
   quotes,
-  
-  
-  
-  
+  featur,
+  product,
+  client,
+  contact,
+  home,
   menu,
   close,
   google,
