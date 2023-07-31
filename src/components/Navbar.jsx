@@ -9,8 +9,12 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-      <img src={logo} alt="Crbonout" className="w-[100px] h-[60px]" />
-      <h3 className={styles.paragraph}>CarbonOut</h3>
+      <a href="/">
+    <img src={logo} alt="Crbonout" className="w-[100px] h-[60px]" />
+</a>
+    <h3 className="font-poppins font-semibold text-[20px] leading-[32px] text-white">CarbonOut</h3>
+  
+  
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li
@@ -62,7 +66,7 @@ const Navbar = () => {
                     <img
                       src={nav.img}
                       alt="star"
-                      className="w-[50px] h-[50px] object-contain inline-block ml-2"
+                      className="w-[50px] h-[50px] object-contain inline-block ml-2 rounded-full hover:rounded-3xl"
                     />
                   )}
                 </a>

@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
 import { styles } from "../styles";
-import { EarthCanvas } from "./canvas";
+import { contact } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
@@ -74,9 +74,16 @@ const Contact = () => {
         variants={slideIn("left", "tween", 0.2, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
-        <p className={styles.sectionSubText}>Get in touch</p>
-        <h3 className={styles.sectionHeadText}>Contact.</h3>
-
+        <p className={styles.sectionSubText}
+        style={{marginLeft:"35%"}}
+        >Get in touch</p>
+        <div className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]">
+        <h3 className={styles.sectionHeadText}
+        style={{marginLeft:"35%"}}
+        >Contact</h3>
+        <img src={contact} alt="star" className="w-[50px] h-[50px] object-contain rounded-full" 
+    style={{ marginRight: "35%" }}/>
+          </div>
         <form
           ref={formRef}
           onSubmit={handleSubmit}
