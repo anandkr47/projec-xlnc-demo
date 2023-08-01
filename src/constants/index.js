@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, iot,solar,recycle,bluetooth,client,product,featur,contact,home } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, iot,solar,recycle,bluetooth,client,product,featur,contact,home,about} from "../assets";
 
 export const navLinks = [
   {
@@ -20,6 +20,11 @@ export const navLinks = [
     id: "clients",
     title: "Testinomials",
     img: client,
+  },
+  {
+    id:"about",
+    title:"About",
+    img:about,
   },
   {
     id: "contact",

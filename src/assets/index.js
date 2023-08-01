@@ -39,6 +39,7 @@ import home from "./home.gif";
 import earth from "./earth.gif";
 import eco from "./eco.png";
 import moon from "./moon.png";
+import about from "./target.gif";
 export {
   airbnb,
   bill,
@@ -81,4 +82,5 @@ export {
   earth,
   moon,
   eco,
+  about,
 };
