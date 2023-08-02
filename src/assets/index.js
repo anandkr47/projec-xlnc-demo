@@ -40,6 +40,7 @@ import earth from "./earth.gif";
 import eco from "./eco.png";
 import moon from "./moon.png";
 import about from "./target.gif";
+import galary from "./galary.gif";
 export {
   airbnb,
   bill,
@@ -83,4 +84,5 @@ export {
   moon,
   eco,
   about,
+  galary,
 };

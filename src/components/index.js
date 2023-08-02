@@ -11,6 +11,7 @@ import Hero from "./Hero";
 import Contact from "./Contact";
 import AboutVideo from "./AboutVideo";
 import Earth from "./Earth";
+import ImageGallery from "./Gallary";
 export {
   Navbar,
   Billing,
@@ -25,4 +26,5 @@ export {
   Contact,
   AboutVideo,
   Earth,
+  ImageGallery,
 };

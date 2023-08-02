@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 import { slideIn } from "../utils/motion";
 import { about } from "../assets";
 
+
 const useStyles = makeStyles((theme) => ({
   root: {
     position: "relative",
@@ -56,6 +57,7 @@ const AboutVideo = () => {
         />
       
     </div>
+    
     </section>
   );
 };

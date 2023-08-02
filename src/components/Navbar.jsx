@@ -36,6 +36,9 @@ const Navbar = () => {
             </a>
           </li>
         ))}
+        <li className="font-poppins font-normal cursor-pointer text-[16px] text-dimWhite ml-10">
+          <a href="/galary">Galary</a>
+        </li>
       </ul>
 
       <div className="sm:hidden flex flex-1 justify-end items-center">

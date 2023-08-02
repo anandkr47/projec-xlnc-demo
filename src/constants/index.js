@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, iot,solar,recycle,bluetooth,client,product,featur,contact,home,about} from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, iot,solar,recycle,bluetooth,client,product,featur,contact,home,about,galary} from "../assets";
 
 export const navLinks = [
   {
@@ -26,6 +26,7 @@ export const navLinks = [
     title:"About",
     img:about,
   },
+  
   {
     id: "contact",
     title: "Contact",
@@ -227,5 +228,43 @@ export const support = [
   {
     id: "client-4",
     logo: dropbox,
+  },
+];
+
+export const Galarycrousel = [
+  {
+    id: "client-1",
+    image: airbnb,
+  },
+  {
+    id: "client-2",
+    image: binance,
+  },
+  {
+    id: "client-3",
+    image: coinbase,
+  },
+  {
+    id: "client-4",
+    image: dropbox,
+  },
+];
+
+export const Galary = [
+  {
+    id: "client-1",
+    img: airbnb,
+  },
+  {
+    id: "client-2",
+    img: binance,
+  },
+  {
+    id: "client-3",
+    img: coinbase,
+  },
+  {
+    id: "client-4",
+    img: dropbox,
   },
 ];
