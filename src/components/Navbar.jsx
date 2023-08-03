@@ -1,5 +1,6 @@
 import { useState } from "react";
 import styles from "../style";
+import{Link} from "react-router-dom";
 import { close, logo, menu } from "../assets";
 import { navLinks } from "../constants";
 
@@ -37,7 +38,7 @@ const Navbar = () => {
           </li>
         ))}
         <li className="font-poppins font-normal cursor-pointer text-[16px] text-dimWhite ml-10">
-          <a href="/galary">Galary</a>
+        <Link to="/gallery">Gallery</Link>
         </li>
       </ul>
 
@@ -75,6 +76,10 @@ const Navbar = () => {
                 </a>
               </li>
             ))}
+            <li className="font-poppins font-normal cursor-pointer text-[16px] text-dimWhite ml-10">
+        <Link to="/gallery">Gallery</Link>
+        </li>
+        
           </ul>
         </div>
       </div>

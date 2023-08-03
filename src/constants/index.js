@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, iot,solar,recycle,bluetooth,client,product,featur,contact,home,about,galary} from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, iot,solar,recycle,bluetooth,client,product,featur,contact,home,about,galary,galarycrousel1,galarycrousel2,galarycrousel3,galarycrousel4,galarycrousel5,galarycrousel6,mygalary1,mygalary2,mygalary3,mygalary4,mygalary5,mygalary6,mygalary7,mygalary8} from "../assets";
 
 export const navLinks = [
   {
@@ -233,38 +233,60 @@ export const support = [
 
 export const Galarycrousel = [
   {
-    id: "client-1",
-    image: airbnb,
+    id: "c-1",
+    image: galarycrousel1,
   },
   {
-    id: "client-2",
-    image: binance,
+    id: "c-2",
+    image: galarycrousel3,
   },
   {
-    id: "client-3",
-    image: coinbase,
+    id: "c-3",
+    image: galarycrousel4,
   },
   {
-    id: "client-4",
-    image: dropbox,
+    id: "c-4",
+    image: galarycrousel5,
+  },
+  {
+    id: "c-5",
+    image: galarycrousel6,
   },
 ];
 
 export const Galary = [
   {
     id: "client-1",
-    img: airbnb,
+    img: mygalary2,
+    title: "Garden",
+    disciption: "Garden",
   },
   {
     id: "client-2",
-    img: binance,
+    img: mygalary1,
   },
   {
     id: "client-3",
-    img: coinbase,
+    img: mygalary3,
   },
   {
     id: "client-4",
-    img: dropbox,
+    img: mygalary4,
+  },
+  {
+    id: "client-5",
+    img: mygalary5,
+  },
+  {
+    id: "client-6",
+    img: mygalary6,
+  },
+  {
+    id: "client-7",
+    img: mygalary7,
+  },
+  {
+    id: "client-8",
+    img: mygalary8,
   },
 ];

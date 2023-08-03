@@ -41,6 +41,20 @@ import eco from "./eco.png";
 import moon from "./moon.png";
 import about from "./target.gif";
 import galary from "./galary.gif";
+import  galarycrousel1 from "./galarycrousel1.jpg"; 
+import  galarycrousel2 from "./galarycrousel2.jpg";
+import  galarycrousel3 from "./galarycrousel3.jpg";
+import  galarycrousel4 from "./galarycrousel4.jpg";
+import  galarycrousel5 from "./galarycrousel5.jpg";
+import  galarycrousel6 from "./galarycrousel6.jpg";
+import mygalary1 from "./mygalary1.jpg";
+import mygalary2 from "./mygalary2.jpg";
+import mygalary3 from "./mygalary3.jpg";
+import mygalary4 from "./mygalary4.jpg";
+import mygalary5 from "./mygalary5.jpg";
+import mygalary6 from "./mygalary6.jpg";
+import mygalary7 from "./mygalary7.jpg";
+import mygalary8 from "./mygalary8.jpg";
 export {
   airbnb,
   bill,
@@ -85,4 +99,18 @@ export {
   eco,
   about,
   galary,
+  galarycrousel1,
+  galarycrousel2,
+  galarycrousel3,
+  galarycrousel4,
+  galarycrousel5,
+  galarycrousel6,
+  mygalary1,
+  mygalary2,
+  mygalary3,
+  mygalary4,
+  mygalary5,
+  mygalary6,
+  mygalary7,
+  mygalary8,
 };
