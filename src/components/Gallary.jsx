@@ -1,6 +1,7 @@
 import React from 'react';
 import Carousel from './Carousel';
 import styles from '../style';
+import { galary } from '../assets';
 import { Galarycrousel, Galary } from '../constants';
 import { Link } from 'react-router-dom';
 const ImageGallery = () => {
@@ -11,10 +12,12 @@ const ImageGallery = () => {
         <Link to="/" className={`py-4 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none ${styles}`}>
       Home
     </Link>
-          <span className="text-gradient" style={{ marginLeft: "33%" }}>
+          <span className="text-gradient" style={{ marginLeft: "35%" }}>
             Our Gallery
           </span>
         </h1>
+        <img src={galary} alt="star" className="w-[50px] h-[50px] object-contain rounded-full" 
+    style={{ marginRight: "35%" }}/>
       </div>
       <div className={`bg-primary ${styles.boxWidth}`}>
         <div className="image-gallery mt-10">

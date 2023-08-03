@@ -22,7 +22,7 @@ const Earth = () => {
   };
 
   return (
-    <section id='contact'
+    <section id='earth'
       className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
     >
 
