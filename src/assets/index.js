@@ -65,6 +65,9 @@ import startupind from "./Recognised By/Startupind.png";
 import slider01 from "./Slider Images/slider01.png";
 import slider02 from "./Slider Images/slider02.png";
 import slider03 from "./Slider Images/slider03.png";
+import stpinext from "./Recognised By/stpinext.png";
+import cctc from "./Published BY/cctc.png";
+import cipet from "./Published BY/cipet.png";
 export {
   airbnb,
   bill,
@@ -134,5 +137,7 @@ export {
   slider01,
   slider02,
   slider03,
-  
+  cctc,
+  cipet,
+  stpinext,
 };

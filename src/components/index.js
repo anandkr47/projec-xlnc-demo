@@ -12,6 +12,7 @@ import Contact from "./Contact";
 import AboutVideo from "./AboutVideo";
 import Earth from "./Earth";
 import ImageGallery from "./Gallary";
+import IncubationLogo from "./incubated";
 export {
   Navbar,
   Billing,
@@ -27,4 +28,5 @@ export {
   AboutVideo,
   Earth,
   ImageGallery,
+  IncubationLogo,
 };

@@ -45,7 +45,7 @@ const AboutVideo = () => {
         />
       </div>
       <div className={classes.root}>
-        <div style={{ position: "relative", paddingTop: "56.25%", width: "90%" }}>
+        <div style={{ position: "relative", width: "90%" }}>
           {/* Maintain the video's 16:9 aspect ratio */}
           <YouTube
             videoId={"fpnPWIqvwO8"}

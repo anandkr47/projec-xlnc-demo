@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { clients, support } from "../constants";
+import { EP } from "../assets";
+import IncubationLogo from "./incubated";
 import styles from "../style";
 
 const Carousel = ({ items }) => {
@@ -44,8 +46,11 @@ const Clients = () => {
   // Define your clients' data. For example:
 
   return (
-    <section className={`${styles.flexCenter} my-4`}>
-      <div className="crousel1" style={{ marginLeft: "50px", marginRight: "6px" }}>
+    <section id="clients" className="placeholder">
+      <IncubationLogo />
+    <div className={`${styles.flexCenter} `}>
+        
+      <div className="crousel1" style={{ marginLeft: "90px", marginRight: "6px" }}>
         <h3 className="font-poppins font-semibold text-[15px] md:text-[10px] leading-[17px] text-white">Recognise by</h3>
         <div
           className={`${styles.flexCenter} w-full relative`}
@@ -86,6 +91,7 @@ const Clients = () => {
           <Carousel items={support} />
         </div>
       </div>
+    </div>
     </section>
   );
 };

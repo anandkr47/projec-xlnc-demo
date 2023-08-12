@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, iot,solar,recycle,bluetooth,client,product,featur,contact,home,about,galary,galarycrousel1,galarycrousel2,galarycrousel3,galarycrousel4,galarycrousel5,galarycrousel6,mygalary1,mygalary2,mygalary3,mygalary4,mygalary5,mygalary6,mygalary7,mygalary8,startupind,startupo,startupodi,slider01,slider02,slider03,makeinind,MSME,STPI,EP} from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, iot,solar,recycle,bluetooth,client,product,featur,contact,home,about,galary,galarycrousel1,galarycrousel2,galarycrousel3,galarycrousel4,galarycrousel5,galarycrousel6,mygalary1,mygalary2,mygalary3,mygalary4,mygalary5,mygalary6,mygalary7,mygalary8,startupind,startupo,startupodi,slider01,slider02,slider03,makeinind,MSME,STPI,EP,cctc,cipet,stpinext} from "../assets";
 
 export const navLinks = [
   {
@@ -197,18 +197,18 @@ export const socialMedia = [
 export const clients = [
   {
     id: "client-1",
-    logo: startupo,
+    logo: cctc,
   },
   {
     id: "client-2",
-    logo: STPI,
+    logo: cipet,
   },
 
 ];
 export const support = [
   {
     id: "client-1",
-    logo: EP,
+    logo: stpinext,
   },
   {
     id: "client-2",
