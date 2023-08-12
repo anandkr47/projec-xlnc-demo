@@ -42,7 +42,7 @@ const Clients = () => {
   // Define your clients' data. For example:
 
   return (
-    <section className={` ${styles.flexCenter}my-4`}>
+    <section className={` ${styles.flexCenter}my-4 `}>
       <div className="crousel1"
       style={{marginLeft:"100px"}}
       >
