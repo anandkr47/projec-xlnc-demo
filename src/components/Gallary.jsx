@@ -3,22 +3,30 @@ import Carousel from './Carousel';
 import styles from '../style';
 import { galary } from '../assets';
 import { Galarycrousel, Galary } from '../constants';
+import Footer from './Footer'
 import { Link } from 'react-router-dom';
 const ImageGallery = () => {
   return (
     <div className="bg-primary w-full overflow-hidden">
-      <div className="flex flex-row justify-between items-center w-full">
-        <h1 className="flex-1 font-poppins font-semibold text-3xl sm:text-5xl text-white leading-10">
-        <Link to="/" className={`py-4 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none ${styles}`}>
-      Home
-    </Link>
-          <span className="text-gradient" style={{ marginLeft: "35%" }}>
-            Our Gallery
-          </span>
+      <div className="flex flex-col sm:flex-row justify-between items-center w-full">
+        <a
+          href="/"
+          className="py-4 px-6 font-poppins font-medium text-18 text-primary bg-blue-gradient rounded-10 outline-none mb-4 sm:mb-0 sm:mr-4"
+        >
+          Home
+        </a>
+        <h1 className="flex-1 font-poppins font-semibold text-3xl sm:text-5xl leading-10 text-center sm:text-left"
+        style={{marginLeft:"10%"}}  
+        >
+          <span className="text-gradient">Our Gallery</span>
         </h1>
-        <img src={galary} alt="star" className="w-[50px] h-[50px] object-contain rounded-full" 
-    style={{ marginRight: "35%" }}/>
+        <img
+          src={galary}
+          alt="star"
+          className="w-12 h-12 sm:w-50 sm:h-50 object-contain rounded-full order-first sm:order-last mb-4 sm:mb-0 mx-auto sm:mr-0 "
+        />
       </div>
+
       <div className={`bg-primary ${styles.boxWidth}`}>
         <div className="image-gallery mt-10">
           
@@ -41,6 +49,7 @@ const ImageGallery = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };

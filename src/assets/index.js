@@ -55,6 +55,16 @@ import mygalary5 from "./mygalary5.jpg";
 import mygalary6 from "./mygalary6.jpg";
 import mygalary7 from "./mygalary7.jpg";
 import mygalary8 from "./mygalary8.jpg";
+import startupo from "./Published BY/Startupo.png";
+import STPI from "./Published BY/STPI.jpg";
+import EP from "./Recognised By/EP.jpg";
+import MSME from "./Recognised By/MSME.png";
+import makeinind from "./Recognised By/makein.jpg";
+import startupodi from "./Recognised By/StartupOdi.png";
+import startupind from "./Recognised By/Startupind.png";
+import slider01 from "./Slider Images/slider01.png";
+import slider02 from "./Slider Images/slider02.png";
+import slider03 from "./Slider Images/slider03.png";
 export {
   airbnb,
   bill,
@@ -113,4 +123,16 @@ export {
   mygalary6,
   mygalary7,
   mygalary8,
+  startupo,
+  STPI,
+  EP,
+  MSME,
+  makeinind,
+  startupodi,
+  startupind,
+
+  slider01,
+  slider02,
+  slider03,
+  
 };

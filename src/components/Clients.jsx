@@ -44,12 +44,12 @@ const Clients = () => {
   return (
     <section className={` ${styles.flexCenter}my-4`}>
       <div className="crousel1"
-      style={{marginLeft:"75px"}}
+      style={{marginLeft:"100px"}}
       >
-      <h3 className="font-poppins font-semibold text-[20px] leading-[32px] text-white">Recognised by</h3>
+      <h3 className="font-poppins font-semibold text-[15px] leading-[25px] text-white">Recognised by</h3>
       <div
         className={`${styles.flexCenter} w-full relative`}
-        style={{ width: "90%" , marginRight: "10px", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)", backgroundColor:"ActiveCaption", borderRadius: "20px",border: "1px solid #33DFF0",}}
+        style={{ width:"95%",marginRight: "10px", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)", backgroundColor:"ActiveCaption", borderRadius: "20px",border: "1px solid #33DFF0",}}
       >
         
         {/* Use the Carousel component here */}
@@ -57,12 +57,12 @@ const Clients = () => {
       </div>
       </div>
       <div className="crousel2"
-      style={{marginLeft:"10px"}}
+      style={{marginLeft:"30px"}}
       >
-      <h3 className="font-poppins font-semibold text-[20px] leading-[32px] text-white">Supported by</h3>
+      <h3 className="font-poppins font-semibold text-[15px] leading-[25px] text-white">Supported by</h3>
       <div
         className={`${styles.flexCenter} w-full relative`}
-        style={{ width: "90%", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",backgroundColor:"ActiveCaption", borderRadius: "20px",border: "1px solid #33DFF0",}}
+        style={{ width: "33%", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",backgroundColor:"ActiveCaption", borderRadius: "20px",border: "1px solid #33DFF0",}}
       >
 
         {/* Use the Carousel component here */}

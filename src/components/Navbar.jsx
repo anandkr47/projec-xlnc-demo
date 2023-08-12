@@ -31,7 +31,7 @@ const Navbar = () => {
                 <img
                   src={nav.img}
                   alt="star"
-                  className="w-[50px] h-[50px] object-contain inline-block ml-2 rounded-full hover:rounded-3xl"
+                  className="w-[40px] h-[40px] object-contain inline-block ml-2 rounded-full hover:rounded-3xl"
                 />
               )}
             </a>
@@ -70,7 +70,7 @@ const Navbar = () => {
                     <img
                       src={nav.img}
                       alt="star"
-                      className="w-[50px] h-[50px] object-contain inline-block ml-2 rounded-full hover:rounded-3xl"
+                      className="w-[30px] h-[30px] object-contain inline-block ml-2 rounded-full hover:rounded-3xl"
                     />
                   )}
                 </a>

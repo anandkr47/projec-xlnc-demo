@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, iot,solar,recycle,bluetooth,client,product,featur,contact,home,about,galary,galarycrousel1,galarycrousel2,galarycrousel3,galarycrousel4,galarycrousel5,galarycrousel6,mygalary1,mygalary2,mygalary3,mygalary4,mygalary5,mygalary6,mygalary7,mygalary8} from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, iot,solar,recycle,bluetooth,client,product,featur,contact,home,about,galary,galarycrousel1,galarycrousel2,galarycrousel3,galarycrousel4,galarycrousel5,galarycrousel6,mygalary1,mygalary2,mygalary3,mygalary4,mygalary5,mygalary6,mygalary7,mygalary8,startupind,startupo,startupodi,slider01,slider02,slider03,makeinind,MSME,STPI,EP} from "../assets";
 
 export const navLinks = [
   {
@@ -197,37 +197,38 @@ export const socialMedia = [
 export const clients = [
   {
     id: "client-1",
-    logo: airbnb,
+    logo: startupo,
   },
   {
     id: "client-2",
-    logo: binance,
+    logo: STPI,
   },
-  {
-    id: "client-3",
-    logo: coinbase,
-  },
-  {
-    id: "client-4",
-    logo: dropbox,
-  },
+
 ];
 export const support = [
   {
     id: "client-1",
-    logo: airbnb,
+    logo: EP,
   },
   {
     id: "client-2",
-    logo: binance,
+    logo: makeinind,
   },
   {
     id: "client-3",
-    logo: coinbase,
+    logo: MSME,
   },
   {
     id: "client-4",
-    logo: dropbox,
+    logo: startupind,
+  },
+  {
+    id: "client-5",
+    logo: startupodi,
+  },
+  {
+    id: "client-6",
+    logo: STPI,
   },
 ];
 

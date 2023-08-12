@@ -75,11 +75,11 @@ const Contact = () => {
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
         <p className={styles.sectionSubText}
-        style={{marginLeft:"35%"}}
+        style={{marginLeft:"30%"}}
         >Get in touch</p>
         <div className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]">
         <h3 className={styles.sectionHeadText}
-        style={{marginLeft:"35%"}}
+        style={{marginLeft:"30%"}}
         >Contact</h3>
         <img src={contact} alt="star" className="w-[50px] h-[50px] object-contain rounded-full" 
     style={{ marginRight: "35%" }}/>

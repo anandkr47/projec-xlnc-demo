@@ -2,18 +2,18 @@ import styles from "../style";
 
 import GetStarted from "./GetStarted";
 import Carousel from "./Carousel";
-import {crousel2, crousel3,carbonoutimg1 } from "../assets";
+import {crousel2, crousel3,carbonoutimg1,slider01,slider02,slider03} from "../assets";
 const items = [
   {
-    image: carbonoutimg1,
+    image: slider03,
     alt: "Carousel Image 1",
   },
   {
-    image: crousel2,
+    image: slider01,
     alt: "Carousel Image 2",
   },
   {
-    image: crousel3,
+    image: slider02,
     alt: "Carousel Image 3",
   },
   // Add more carousel items as needed
